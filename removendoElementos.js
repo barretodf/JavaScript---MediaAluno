@@ -1,4 +1,5 @@
 //Removendo o último elemento com .pop
+//Calculando a média do aluno
 
 const notas = [10, 6, 8, 5.5, 10];
 
