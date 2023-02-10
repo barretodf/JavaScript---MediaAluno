@@ -12,5 +12,5 @@ const sala1 = alunos.slice(0, 12);
 //vai imprimir do 12 em diante
 const sala2 = alunos.slice(12);
 
-//console.log(sala1);
+console.log(sala1);
 console.log(sala2);
