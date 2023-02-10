@@ -1,4 +1,5 @@
 //Usando o método push
+//Soma da media
 
 const notas = [10, 6, 8];
 
