@@ -1,0 +1,8 @@
+//Concatenando com o método concat
+
+const salaJS = ['Evaldo', 'Camis', 'Mari'];
+const salaPython = ['Jú', 'Leo', 'Raquel'];
+
+const salasUnificadas = salaJS.concat(salaPython);
+
+console.log(salasUnificadas);
