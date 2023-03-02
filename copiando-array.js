@@ -22,9 +22,9 @@ seus valores no local que estamos indicando.
 É como se copiássemos o conteúdo da lista, "7, 7, 8, 9", e colássemos no lugar do [...notas]. 
 É isso que estamos dizendo para o JavaScript.
 */
-const novasNotas = [...notas];
-
-novasNotas.push(10);
+const novasNotas = [...notas, 10];
+//Apaguei a linha a baixo e coloquei o 10 direto em cima, funciona igual
+//novasNotas.push(10);
 
 console.log(`A novas notas do array são ${novasNotas}`)
 console.log(`A notas originais do array são ${notas}`)
