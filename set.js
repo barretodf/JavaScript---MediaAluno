@@ -1,9 +1,11 @@
-//Removendo elementos repetidos 
+//Removendo elementos repetidos usando spread operator no set
+//Retornando a lista
 
 const nomes = ['Ana', 'Clara', 'Maria', 'Maria', 'João', 'João', 'João'];
 
 const meuSet = new Set(nomes);
+const nomesAtualizados = [...meuSet];
 
-console.log(meuSet);
+console.log(nomesAtualizados);
 
-//Aqui temos o set, temos que retornar uma lista de volta
+//Agora temos uma lista
